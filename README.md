@@ -75,8 +75,8 @@ Celoris is designed to be versatile. It adapts its behavior based on the host op
 
 Clone the repository:
 ```bash
-git clone https://github.com/YourUsername/celoris-desktop.git
-cd celoris-desktop
+git clone https://github.com/CyaniAgent/Celoris-Desktop.git
+cd Celoris-Desktop
 
 Run in App Experience Mode (Default)
 ```bash
@@ -103,7 +103,7 @@ lib/
 
 ### 🤝 Contribution
 We welcome Stargazers from all over the world!
-If you love Hatsune Miku, THE IDOLM@STER Gakuen, or just sleek UI design, feel free to open a PR.
+If you love **Hatsune Miku, THE IDOLM@STER Gakuen**, or just sleek UI design, feel free to open a PR.
 
 ### 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
