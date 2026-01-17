@@ -5,20 +5,27 @@ class StageWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // For now, we just show a solid color background (Void Black)
-    // Later, this will handle Wallpapers and the Icon Grid.
     return Container(
       color: Theme.of(context).colorScheme.background,
       child: Stack(
         children: [
-          // Wallpaper Layer (Placeholder)
+          // Wallpaper Layer
           Positioned.fill(
-            child: Center(
-              child: Icon(
-                Icons.grid_view_rounded,
-                size: 120,
-                color: Theme.of(context).colorScheme.primary.withOpacity(0.05),
-              ),
+            child: Image.asset(
+              'assets/images/demo-wallpaper.jpg',
+              fit: BoxFit.cover,
+              // Fallback placeholder while loading or if missing
+              errorBuilder: (context, error, stackTrace) {
+                return Center(
+                  child: Icon(
+                    Icons.grid_view_rounded,
+                    size: 120,
+                    color: Theme.of(
+                      context,
+                    ).colorScheme.primary.withOpacity(0.05),
+                  ),
+                );
+              },
             ),
           ),
 

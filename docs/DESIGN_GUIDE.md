@@ -56,13 +56,15 @@ All floating elements (Dock, Window Frames, Popups) must adhere to the **Hikari 
 *   **Grid Padding:** `16dp` from edges.
 
 ### 2. The Backstage (Dock)
-*   **Height:** `80dp` (Fixed).
-*   **Margin:** `16dp` from bottom.
+*   **Layout:** Split into 3 distinct zones.
+*   **Height:** `48dp` (Compact Mode).
+*   **Margin:** `12dp` from bottom/sides.
+*   **Zones:**
+    1.  **Left (Interaction):** Notifications, "Dynamic Island" state. Width: Flexible.
+    2.  **Center (App Rack):** The classic dock. Centered. Glassmorphic pill.
+    3.  **Right (System Tray):** Time, Network, Battery, Background Apps. Glassmorphic pill.
 *   **Shape:** `RoundedRectangle` with `radius: 24dp`.
-*   **Icon Size:** `48x48` dp.
-*   **Interaction:**
-    *   *Hover:* Icon scales to `1.2x`.
-    *   *Active Dot:* A small Cyan dot appears below running apps.
+*   **Icon Size:** `24x24` dp.
 
 ### 3. Application Windows
 *   **Corner Radius:** `12dp` (Standard Linux/Windows feel) or `16dp` (Modern).
