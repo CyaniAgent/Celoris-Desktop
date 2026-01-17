@@ -150,7 +150,7 @@ flutter build windows --release --dart-define=MODE=demo
 
 **Build for Cyanite (Cross-compilation):**
 ```bash
-flutter build linux --release --target-platform=linux-arm64 --dart-define=MODE=cyanite
+Coming Soon.
 ```
 
 ## 7. Future Considerations (Cyanite Roadmap)
