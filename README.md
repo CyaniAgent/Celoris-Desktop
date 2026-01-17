@@ -109,5 +109,5 @@ If you love **Hatsune Miku, THE IDOLM@STER Gakuen**, or just sleek UI design, fe
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 <div align="center">
-Built with 💙 for Miku & Saki
+Built with 💙 for Miku & Saki Hanami
 </div>
